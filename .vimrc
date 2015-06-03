@@ -7,6 +7,7 @@ set softtabstop=2
 set expandtab
 set ruler
 set colorcolumn=80
+highlight ColorColumn guibg=7
 set wildmenu
 set hidden  
 

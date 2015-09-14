@@ -31,6 +31,7 @@ highlight ColorColumn guibg=7
 set wildmenu
 set hidden  
 set mouse=a
+set pastetoggle=<F10>
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/

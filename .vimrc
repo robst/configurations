@@ -13,6 +13,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'JulesWang/css.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -34,4 +35,3 @@ set mouse=a
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim

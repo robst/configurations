@@ -14,6 +14,8 @@ Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'JulesWang/css.vim'
+Plugin 'pangloss/vim-javascript.git'
+Plugin 'hail2u/vim-css3-syntax.git'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

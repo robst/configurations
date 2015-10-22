@@ -9,5 +9,6 @@
   "font_face": "Ubuntu Mono",
   "line_padding_bottom": 1,
   "highlight_modified_tabs": true,
-  "word_wrap": true
+  "word_wrap": true,
+  "highlight_line": true
 }

@@ -1,3 +1,7 @@
 [user]
 	email = robertst81@gmail.com
 	name = robst
+[alias]
+        co = checkout
+        st = status
+        bl = blame

@@ -5,3 +5,4 @@
         co = checkout
         st = status
         bl = blame
+        ci = commit -v

@@ -6,3 +6,5 @@
         st = status
         bl = blame
         ci = commit -v
+[push]
+	default = simple

@@ -6,3 +6,8 @@
         st = status
         bl = blame
         ci = commit -v
+
+[color "branch"]
+        current = yellow bold
+        local = green bold
+        remote = cyan bold

@@ -8,3 +8,8 @@
         ci = commit -v
 [push]
 	default = simple
+
+[color "branch"]
+        current = yellow bold
+        local = green bold
+        remote = cyan bold

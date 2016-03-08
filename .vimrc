@@ -4,7 +4,7 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
+" alternatively, pass a path where Vundle should installs
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
@@ -20,7 +20,8 @@ Plugin 'hail2u/vim-css3-syntax.git'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-
+" statusbar
+set laststatus=2
 set number
 set title
 set hlsearch 

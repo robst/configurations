@@ -22,6 +22,7 @@ filetype plugin indent on    " required
 
 " statusbar
 set laststatus=2
+set titlestring=%F
 set number
 set title
 set hlsearch 
@@ -38,4 +39,8 @@ set pastetoggle=<F10>
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
 

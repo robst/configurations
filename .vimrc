@@ -8,6 +8,9 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+
+
+
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails.git'
@@ -16,9 +19,9 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'JulesWang/css.vim'
 Plugin 'pangloss/vim-javascript.git'
 Plugin 'hail2u/vim-css3-syntax.git'
-
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 
 " statusbar
 set laststatus=2
@@ -30,15 +33,19 @@ set incsearch
 set softtabstop=2  
 set expandtab
 set ruler
+
+
 set colorcolumn=80
-highlight ColorColumn guibg=7
+highlight ColorColumn guibg=7 guifg=2
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+
 set wildmenu
 set hidden  
 set mouse=a
 set pastetoggle=<F10>
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
 
 set encoding=utf-8
 set fileencoding=utf-8

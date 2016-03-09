@@ -29,10 +29,14 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'JulesWang/css.vim'
 Plugin 'pangloss/vim-javascript.git'
 Plugin 'hail2u/vim-css3-syntax.git'
+Plugin 'gorodinskiy/vim-coloresque'
+" colorscheme
+Plugin 'tomasr/molokai'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 
+colorscheme molokai
 " statusbar
 set laststatus=2
 set titlestring=%F
@@ -42,12 +46,15 @@ set hlsearch
 set incsearch
 set softtabstop=2  
 set expandtab
-set ruler
 
 
+set t_Co=256
+
+" ruler and highlight
+set ruler 
 set colorcolumn=80
-highlight ColorColumn guibg=7 guifg=2
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+highlight ColorColumn ctermbg=243
+highlight OverLength ctermbg=243 ctermfg=white 
 match OverLength /\%81v.\+/
 
 

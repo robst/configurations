@@ -32,6 +32,7 @@ Plugin 'hail2u/vim-css3-syntax.git'
 Plugin 'gorodinskiy/vim-coloresque'
 " colorscheme
 Plugin 'tomasr/molokai'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -48,7 +49,6 @@ set incsearch
 set expandtab
 set shiftwidth=2
 set softtabstop=2  
-
 
 set t_Co=256
 

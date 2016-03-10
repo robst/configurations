@@ -44,8 +44,10 @@ set number
 set title
 set hlsearch 
 set incsearch
-set softtabstop=2  
+" spaces instead tab
 set expandtab
+set shiftwidth=2
+set softtabstop=2  
 
 
 set t_Co=256

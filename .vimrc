@@ -36,7 +36,6 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-
 colorscheme molokai
 " statusbar
 set laststatus=2
@@ -58,8 +57,8 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=243
 highlight OverLength ctermbg=243 ctermfg=white 
 match OverLength /\%81v.\+/
-
-
+" set visual style more colorfull
+hi Visual ctermbg=178 ctermfg=238
 set wildmenu
 set hidden  
 set mouse=a

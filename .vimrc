@@ -48,7 +48,7 @@ set incsearch
 set expandtab
 set shiftwidth=2
 set softtabstop=2  
-
+set cursorline
 set t_Co=256
 
 " ruler and highlight

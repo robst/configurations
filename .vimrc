@@ -62,8 +62,10 @@ hi Visual ctermbg=178 ctermfg=238
 set wildmenu
 set hidden  
 set mouse=a
-set pastetoggle=<F10>
 
+set pastetoggle=<F10>
+" nerdtree
+map <F2> :NERDTreeToggle<CR>
 
 set encoding=utf-8
 set fileencoding=utf-8

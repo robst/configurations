@@ -66,6 +66,8 @@ set mouse=a
 set pastetoggle=<F10>
 " nerdtree
 map <F2> :NERDTreeToggle<CR>
+" reset search
+map <F3> :nohlsearch<CR>
 
 set encoding=utf-8
 set fileencoding=utf-8

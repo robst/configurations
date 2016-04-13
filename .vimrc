@@ -59,6 +59,7 @@ highlight OverLength ctermbg=243 ctermfg=white
 match OverLength /\%81v.\+/
 " set visual style more colorfull
 hi Visual ctermbg=178 ctermfg=238
+hi CursorLine term=none cterm=none ctermbg=236
 set wildmenu
 set hidden  
 set mouse=a

@@ -24,6 +24,8 @@ call vundle#begin()
 " search plugin ack
 Plugin 'mileszs/ack.vim'
 Plugin 'VundleVim/Vundle.vim'
+" statusbar
+Plugin 'Lokaltog/vim-powerline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-bundler.git'
@@ -77,4 +79,3 @@ set fileencoding=utf-8
 set fileencodings=utf-8
 " open nerdtree if no args
 autocmd VimEnter * if !argc() | NERDTree | endif
-

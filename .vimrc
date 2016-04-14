@@ -8,7 +8,8 @@ if !filereadable(vundle_readme)
   echo ""
   silent !mkdir -p ~/.vim/bundle
   silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-  echo "start vim and run :PluginInstall"
+
+  echo "don't forget to apt-get install ack-grep for Ack"
 endif
 
 " set the runtime path to include Vundle and initialize
@@ -18,9 +19,9 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-
-
-
+" doing :PluginInstall for this
+" search plugin ack
+Plugin 'mileszs/ack.vim'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails.git'
@@ -68,10 +69,11 @@ set pastetoggle=<F10>
 " nerdtree
 map <F2> :NERDTreeToggle<CR>
 " reset search
-map <F3> :nohlsearch<CR>
+"map <F3> :nohlsearch<CR>
 
 set encoding=utf-8
 set fileencoding=utf-8
 set fileencodings=utf-8
 " open nerdtree if no args
 autocmd VimEnter * if !argc() | NERDTree | endif
+

@@ -9,9 +9,10 @@ if !filereadable(vundle_readme)
   silent !mkdir -p ~/.vim/bundle
   silent !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+  autocmd VimEnter * PluginInstall
+  
   echo "don't forget to apt-get install ack-grep for Ack"
 endif
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()

@@ -79,3 +79,6 @@ set fileencoding=utf-8
 set fileencodings=utf-8
 " open nerdtree if no args
 autocmd VimEnter * if !argc() | NERDTree | endif
+
+set swapfile
+set dir=/tmp

@@ -82,3 +82,7 @@ autocmd VimEnter * if !argc() | NERDTree | endif
 
 set swapfile
 set dir=/tmp
+
+" display buffer by pressing f10
+set wildcharm=<C-Z>
+nnoremap <F10> :b <C-Z>

@@ -34,6 +34,8 @@ Plugin 'gorodinskiy/vim-coloresque'
 " colorscheme
 Plugin 'tomasr/molokai'
 
+Plugin 'Valloric/YouCompleteMe.git'
+
 Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required

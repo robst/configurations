@@ -89,17 +89,17 @@ nnoremap <F10> :b <C-Z>
 
 
 "split navigations
-"nnoremap <C-J> <C-W><C-J>
-"nnoremap <C-K> <C-W><C-K>
-"nnoremap <C-L> <C-W><C-L>
-"nnoremap <C-H> <C-W><C-H>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1 
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
-nnoremap <C-l> gt
-nnoremap <C-h> gT
+"nnoremap <C-l> gt
+"nnoremap <C-h> gT
 
 " open every file in new tab
-:au BufAdd,BufNewFile * nested tab sball
+":au BufAdd,BufNewFile * nested tab sball

@@ -100,3 +100,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 nnoremap <C-l> gt
 nnoremap <C-h> gT
+
+
+:au BufAdd,BufNewFile * nested tab sball

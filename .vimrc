@@ -103,3 +103,4 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " open every file in new tab
 ":au BufAdd,BufNewFile * nested tab sball
+:command W w

@@ -29,10 +29,13 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails.git'
 Plugin 'tpope/vim-bundler.git'
+Plugin 'tpope/vim-endwise'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'gorodinskiy/vim-coloresque'
 " colorscheme
 Plugin 'tomasr/molokai'
+" completer supertab
+Plugin 'ervandew/supertab'
 
 Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required

@@ -46,7 +46,6 @@ colorscheme molokai
 set laststatus=2
 set titlestring=%F
 set number
-set title
 set hlsearch 
 set incsearch
 " spaces instead tab
@@ -105,3 +104,4 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 " open every file in new tab
 ":au BufAdd,BufNewFile * nested tab sball
 :command W w
+:command Q q

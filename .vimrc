@@ -1,6 +1,5 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
-filetype plugin indent on
+"filetype off                  " required
 syntax on
 
 let vundle_readme=expand('~/.vim/bundle/Vundle.vim/README.md')

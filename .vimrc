@@ -28,16 +28,16 @@ Plugin 'VundleVim/Vundle.vim'
 " statusbar
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-rails.git'
+" Plugin 'tpope/vim-rails.git'
 "Plugin 'tpope/vim-bundler.git'
 " add automatically end
-Plugin 'tpope/vim-endwise'
-Plugin 'vim-ruby/vim-ruby'
+" Plugin 'tpope/vim-endwise'
+" Plugin 'vim-ruby/vim-ruby'
 "Plugin 'gorodinskiy/vim-coloresque'
 " colorscheme
-Plugin 'tomasr/molokai'
+" Plugin 'tomasr/molokai'
 " completer supertab
-Plugin 'ervandew/supertab'
+" Plugin 'ervandew/supertab'
 
 Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required

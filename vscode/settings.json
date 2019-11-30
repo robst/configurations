@@ -1,0 +1,29 @@
+{
+    "explorer.confirmDelete": false,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vetur.validation.template": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.packageManager": "yarn",
+    "editor.formatOnSave": true,
+    "eslint.run": "onSave",
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Darcula",
+}

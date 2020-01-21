@@ -43,7 +43,7 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-colorscheme molokai
+" colorscheme molokai
 " statusbar
 set laststatus=2
 set titlestring=%F

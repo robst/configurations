@@ -13,3 +13,5 @@
         current = yellow bold
         local = green bold
         remote = cyan bold
+[grep]
+	lineNumber = true
